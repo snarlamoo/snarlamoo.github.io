@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: stretch;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #links {
@@ -77,7 +78,16 @@ p {
     line-height: 1.6;
     list-style-type: square;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+#content #personalLinks a {
+    text-decoration: none;
+}
+
+#content #personalLinks li {
+    list-style: none;
+    line-height: 1.2;
 }
 
 span {
