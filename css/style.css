@@ -47,7 +47,7 @@ h2 {
 
 h3 {
     font-size: 34px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -86,8 +86,10 @@ p {
 }
 
 #content #personalLinks li {
+    display: inline;
     list-style: none;
     line-height: 1.2;
+    margin-left: 5px;
 }
 
 span {
@@ -100,6 +102,16 @@ a:hover {
     font-weight: 600;
     color: darkorange;
     transition: color .6s;
+}
+
+hr {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+img {
+    float: right;
 }
 
 
